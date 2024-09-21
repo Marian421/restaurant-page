@@ -1,3 +1,16 @@
 body {
-    background-color: rebeccapurple;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav > button {
+    background-color: red;
+    height: 3rem;
+    width: 5rem;
 }
