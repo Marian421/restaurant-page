@@ -103,3 +103,9 @@ p {
     font-size: 2em;
     font-style: italic;
 }
+
+.about {
+    color: #9a031e;
+    font-size: 2em;
+    font-weight: 700;
+}
