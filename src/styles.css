@@ -3,14 +3,84 @@ body {
     padding: 0;
 }
 
+.background-2 {
+    background-image: url(./images/background-image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-1 {
+    background-image: url(./images/background-image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-inline: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-inline: 10px;
+}
+
+.logo {
+    font-size: 80px;
+    font-weight: bold;
+    color: #9a031e;
+}
+
 nav {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-left: auto;
 }
 
 nav > button {
-    background-color: red;
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
     height: 3rem;
-    width: 5rem;
+    width: 140px;
+    font-weight: 900;
+    font-size: 2em;
+    border: none;
+    color: #ff6d00;
+    position: relative;
+}
+
+nav > button::before{
+    content:'';
+    border-bottom: 1px solid #ff6d00;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    transition: 0.3s;
+}
+
+nav > button:hover::before {
+    width: 100%;
+    padding: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+}
+p {
+    color: wheat;
+    width: 60ch;
+    font-size: 1.3em;
+}
+.group {
+    margin-left: 100px;
 }
