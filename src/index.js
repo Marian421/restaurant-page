@@ -2,7 +2,9 @@ import "./styles.css";
 import homePage from "./home";
 import aboutPage from "./about";
 import menuPage from "./menu";
+import logo from "./logo";
 
+logo();
 homePage();
 
 const homeButton = document.querySelector("#home");

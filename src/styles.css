@@ -84,3 +84,22 @@ p {
 .group {
     margin-left: 100px;
 }
+
+
+/* menu */
+
+.subheader{
+    color: #9a031e;
+}
+
+.paragraph{
+    color:#ad2831;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.price {
+    color:#9a031e ;
+    font-size: 2em;
+    font-style: italic;
+}
