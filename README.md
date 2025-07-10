@@ -14,8 +14,7 @@ This project was built as part of [The Odin Project](https://www.theodinproject.
 
 ## Live Demo
 
-🔗 [View Live Demo](https://yourusername.github.io/restaurant-page/)  
-*(opens in a new tab)*
+[View Live Demo](https://marian421.github.io/restaurant-page/)  
 
 ## Features
 
@@ -50,6 +49,5 @@ npx webpack serve
 - Practiced DOM manipulation without relying on HTML templates
 - Used IIFE and ES6 modules for clear separation of logic
 - Configured Webpack for module bundling
-- Deployed manually using git subtree
 
 
